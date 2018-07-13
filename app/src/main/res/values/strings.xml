@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Shortcut</string>
+
+    <string name="label_short_main">MainAcivity</string>
+    <string name="label_long_main">MainAcivity 1</string>
+
+    <string name="label_short_one">OneActivity</string>
+    <string name="label_long_one">OneActivity 1</string>
+
+    <string name="label_short_two">TwoActivity</string>
+    <string name="label_long_two">TwoActivity 1</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" >
+    <shortcut
+        android:enabled="true"
+        android:shortcutId="home"
+        android:icon="@drawable/home"
+        android:shortcutShortLabel="@string/label_short_main"
+        android:shortcutLongLabel="@string/label_long_main">
+        <intent
+            android:action="android.intent.acttion.VIEW"
+            android:targetPackage="pankaj.sharma.appshortcut"
+            android:targetClass="pankaj.sharma.appshortcut.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:shortcutId="one"
+        android:icon="@drawable/one"
+        android:shortcutShortLabel="@string/label_short_one"
+        android:shortcutLongLabel="@string/label_long_one">
+        <intent
+            android:action="android.intent.acttion.VIEW"
+            android:targetPackage="pankaj.sharma.appshortcut"
+            android:targetClass="pankaj.sharma.appshortcut.OneActivity" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:shortcutId="two"
+        android:icon="@drawable/two"
+        android:shortcutShortLabel="@string/label_short_two"
+        android:shortcutLongLabel="@string/label_long_two">
+        <intent
+            android:action="android.intent.acttion.VIEW"
+            android:targetPackage="pankaj.sharma.appshortcut"
+            android:targetClass="pankaj.sharma.appshortcut.TwoActivity" />
+    </shortcut>
+</shortcuts>
